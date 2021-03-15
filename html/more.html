@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<!-- index.html -->
+<html lang="ko-KR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description" content="웹페이지 클론" />
+    <meta
+      name="keyword"
+      content="html, css"
+    />
+    <meta name="author" content="bluehy" />
+    <meta
+      name="generator"
+      content="vscode"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:400,700&display=swap&subset=korean"
+    />
+
+    <link rel="stylesheet" href="../css/base/common.css" />
+    <link rel="stylesheet" href="../css/styles.css" />
+
+    <!--[if lte IE 9]>
+      <script src="../ie/html5shiv/dist/html5shiv.min.js"></script>
+      <script src="../ie/PIE/PIE.js"></script>
+      <script src="../ie/respond/dest/respond.min.js"></script>
+    <![endif]-->
+
+    <link rel="shortcut icon" href="../img/favicon.png" type="image/png" />
+    <link rel="apple-touch-icon" href="../img/favicon.png" />
+
+    <title>KoKo clone page :: More</title>
+  </head>
+  <!--  -->
+  <body>
+
+    <!-- layout =============== -->
+    <div id="wrap">
+      <!-- status bar -->
+      <div class="statusbar">
+        <div class="statusbar__column">
+          <span>No service</span>
+          <i class="fas fa-wifi"></i>
+        </div>
+        <div class="statusbar__column">
+          <span>18:43</span>
+        </div>
+        <div class="statusbar__column">
+          <span>100%</span>
+          <i class="fas fa-battery-full"></i>
+          <i class="fas fa-bolt"></i>
+        </div>
+      </div>
+
+      <!-- 설정페이지 헤더 -->
+      <header class="screen-header">
+        <h1 class="screen-header__title">More</h1>
+        <div class="screen-header__icons">
+          <span>
+            <i class="fas fa-search fa-lg"></i>
+          </span>
+          <span>
+            <i class="fas fa-music fa-lg"></i>
+          </span>
+          <span>
+            <i class="fas fa-cog fa-lg"></i>
+            <div class="badge-component badge-component-xs"></div>
+          </span>
+        </div>
+      </header>
+
+      <!-- 설정페이지 구성 -->
+      <main class="main-screen">
+        <!-- user profile -->
+        <div class="user-component">
+         <div class="user-component__column">
+           <div class="user-component__avatar user-component__avatar--xl">
+             <span class="hidden">프로필사진</span>
+           </div>
+           <div class="user-component__text">
+             <h4 class="user-component__title">사모예드</h4>
+             <h6 class="user-component__subtitle">+82 10-xxxx-xxxx <span><i class="fas fa-exclamation-circle"></i></span></h6>
+           </div>
+         </div>
+         <div class="user-component__column">
+            <i class="far fa-comment-alt fa-2x component-icon__black"></i>
+         </div>
+       </div>
+
+        <!-- 설정 모음 -->
+        <div class="icon-row">
+           <div class="icon-row__app">
+               <i class="far fa-calendar-check fa-2x"></i>
+              <span>Calendar</span>
+            </div>
+           <div class="icon-row__app">
+               <i class="fas fa-archive fa-2x"></i>
+              <span>Talk Drive</span>
+            </div>
+           <div class="icon-row__app">
+               <i class="far fa-laugh-squint fa-2x"></i>
+              <span>Emoticons</span>
+            </div>
+           <div class="icon-row__app">
+               <i class="fas fa-palette fa-2x"></i>
+              <span>Themes</span>
+            </div>
+           <div class="icon-row__app">
+               <i class="far fa-user-circle fa-2x"></i>
+              <span>Account</span>
+            </div>
+           <div class="icon-row__app">
+               <i class="far fa-comments fa-2x"></i>
+              <span>Openchat</span>
+            </div>
+        </div>
+        
+        <!-- 추천 어플 모음 -->
+        <div class="more-suggestion">
+            <div class="more-suggestion__header">
+               <h4 class="more-suggestion__title">suggestions</h4>
+            </div>
+            <ul class="more-suggestion__list">
+               <li class="more-suggestion__app">
+                  <div class="more-suggestion__pic"></div>
+                  <span>koko story</span>
+               </li>
+               <li class="more-suggestion__app">
+                  <div class="more-suggestion__pic"></div>
+                  <span>koko friends</span>
+               </li>
+               <li class="more-suggestion__app">
+                  <div class="more-suggestion__pic"></div>
+                  <span>friends game</span>
+               </li>
+            </ul>
+        </div>
+
+      </main>
+
+      
+      <!-- 네비게이션바 -->
+      <nav class="navbar">
+         <ul class="nav__ul">
+            <li class="nav__li">
+               <a class="nav__a" href="./friends.html">
+                  <i class="far fa-user fa-lg"></i>
+                  <span class="hidden">friends</span>
+               </a>
+            </li>
+            <li class="nav__li">
+               <a class="nav__a" href="./chats.html">
+                  <span class="nav__alarm badge-component">99</span>
+                  <i class="far fa-comment fa-lg"></i>
+                  <span class="hidden">chats</span>
+               </a>
+            </li>
+            <li class="nav__li">
+               <a class="nav__a" href="./search.html">
+                  <i class="fas fa-search fa-lg"></i>
+                  <span class="hidden">search</span>
+               </a>
+            </li>
+            <li class="nav__li">
+               <a class="nav__a" href="./more.html">
+                  <span class="nav__alarm badge-component badge-component-xs"></span>
+                  <i class="fas fa-ellipsis-h fa-lg"></i>
+                  <span class="hidden">more</span>
+               </a>
+            </li>
+         </ul>
+      </nav>
+
+    </div>
+    <!-- script ================ -->
+    <script src="https://kit.fontawesome.com/0541816620.js" crossorigin="anonymous"></script>
+  </body>
+</html>

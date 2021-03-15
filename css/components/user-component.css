@@ -8,6 +8,16 @@
 
 .user-component{
    justify-content: space-between;
+   margin-bottom:var(--horizontal-S);
+}
+
+.user-component__chats{
+   padding-bottom:10px;
+   border-bottom: var(--main-border);
+}
+
+.user-component__chats:last-child {
+   border:none;
 }
 
 .user-component__avatar{
@@ -40,6 +50,10 @@
    color: var(--grey-text);
 }
 
+.user-component__subtitle i {
+   color: #c0392b;
+}
+
 /* user-component:last-child */
 .user-component__column:last-child{
    font-size:12px;
@@ -56,4 +70,8 @@
 .user-component__time{
    display: block;
    margin-bottom:10px;
+}
+
+.component-icon__black{
+   color :#000;
 }

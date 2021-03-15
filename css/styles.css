@@ -9,12 +9,13 @@
 @import "./components/screen-header.css";
 @import "./components/user-component.css";
 @import "./components/badge.css";
+@import "./components/icon-rows.css";
 
 /* Screens */
 @import "./src/login.css";
 @import "./src/friends.css";
 @import "./src/find.css";
-
+@import "./src/more.css";
 
 @media screen and (max-width: 420px){
    #wrap{

@@ -1,0 +1,27 @@
+/* icon-rows.css */
+
+.icon-row{
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   flex-wrap:wrap;
+   width:100%;
+   padding-bottom: var(--horizontal-S);
+}
+
+.icon-row__app{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width:25%;
+   height:100%;
+   margin-top:20px;
+   cursor:pointer;
+}
+
+.icon-row__app span{
+   font-size:11px;
+   margin-top:10px;
+   text-align: center;
+}
+

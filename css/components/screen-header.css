@@ -5,6 +5,7 @@
    justify-content: space-between;
    align-items: center;
    padding: var(--horizontal-S);
+   padding-top:30px;
    margin-bottom:10px;
 }
 

@@ -1,0 +1,41 @@
+/* more.css */
+
+.more-suggestion{
+
+}
+
+.more-suggestion__header{
+   padding: var(--horizontal-S) 0;
+   border-top: var(--main-border);
+}
+
+.more-suggestion__title{
+   font-size:12px;
+}
+
+.more-suggestion__list{
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+}
+
+.more-suggestion__app{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 25%;
+}
+
+.more-suggestion__pic{
+   width: 50px;
+   height:50px;
+   border-radius:10px;
+   background-image: url(https://images.unsplash.com/photo-1611162619969-50b02487f71b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=564&q=80);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: 50% 50%;
+}
+
+.more-suggestion__app span{
+   font-size:12px;
+}
