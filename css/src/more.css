@@ -1,9 +1,5 @@
 /* more.css */
 
-.more-suggestion{
-
-}
-
 .more-suggestion__header{
    padding: var(--horizontal-S) 0;
    border-top: var(--main-border);
