@@ -27,3 +27,28 @@
    color: var(--grey-text);
    font-size:12px;
 }
+
+@keyframes hidesplashScreen {
+   from{
+      opacity:1;
+   }
+   to{
+      opacity:0;
+      visibility:hidden;
+   }
+}
+
+#splash-screen{
+   position:absolute;
+   top:0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100vw;
+   max-width: 420px;
+   height:100vh;
+   font-size:100px;
+   background-color: var(--mainC);
+   color: var(--mainB);
+   animation: hidesplashScreen 1s ease-in-out forwards;
+}
