@@ -17,7 +17,7 @@
    margin-right: 20px;
    background-image: url(https://images.unsplash.com/photo-1587402092301-725e37c70fd8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80);
    background-size: cover;
-   background-position: 50 50;
+   background-position: 50% 0;
 }
 
 .user-component__avatar--xl{
@@ -37,13 +37,13 @@
 }
 
 .user-component__subtitle{
-   color: rgba(0,0,0,0.4);
+   color: var(--grey-text);
 }
 
 /* user-component:last-child */
 .user-component__column:last-child{
    font-size:12px;
-   color:rgba(0,0,0,0.4);
+   color:var(--grey-text);
    display: flex;
    flex-direction: column;
    align-items: flex-end;

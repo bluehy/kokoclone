@@ -1,0 +1,134 @@
+.find-icons{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width:100%;
+   height:70px;
+   padding-bottom: var(--horizontal-S);
+}
+
+.find-icons__app{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width:20%;
+   height:100%;
+   cursor:pointer;
+}
+
+.find-icons__app span{
+   font-size:11px;
+   margin-top:10px;
+   text-align: center;
+}
+
+
+/* recommended */
+.recommended-friends{
+   padding: var(--horizontal-S) 0;
+   border-top: var(--main-border);
+   border-bottom: var(--main-border);
+}
+
+.recommended-friends__title{
+   font-size:12px;
+   color: var(--grey-text);
+}
+
+.recommended-friends p{
+   margin:100px 0;
+   font-size:14px;
+   text-align: center;
+   color: var(--grey-text);
+}
+
+
+/* open chats */
+.open-chat__header{
+   display: flex;
+   justify-content: space-between;
+   padding: var(--horizontal-S) 0;
+   color: var(--grey-text);
+   font-size: 12px;
+}
+
+.open-chat__header span{
+   opacity: 0.8;
+}
+
+/* open chat :: open post */
+.open-post{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 10px 0;
+   border-bottom: var(--main-border);
+   cursor:pointer;
+}
+
+.open-post__title{
+   font-size:14px;
+   margin-bottom: 5px;;
+}
+
+.open-post__hashtags{
+   color: var(--grey-text);
+   text-transform: uppercase;
+}
+
+.open-post__members{
+   display: flex;
+   align-items: center;
+   font-size:12px;
+}
+
+.open-post__admin{
+   width: 20px;
+   height:20px;
+   border-radius:10px;
+   margin-right: 10px;
+   background-image: url(https://images.unsplash.com/photo-1600804340584-c7db2eacf0bf?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80);
+   background-size: cover;
+   background-position: 50% 30%;
+   background-repeat: no-repeat;
+}
+
+.open-post__member-count{
+   opacity:0.5;
+}
+
+.open-post .divider{
+   width:1px;
+   height:15px ;
+   margin:0 5px;
+   background-color: var(--grey-text);
+}
+
+.open-post__member-status{
+   color: #ffb0e0;
+}
+
+.open-post__column:last-child{
+   position:relative;
+}
+
+.open-post__pic{
+   width: 100px;
+   height: 100px;
+   border-radius:10px;
+   background-image: url(https://images.unsplash.com/photo-1593173589854-c9c28824cc89?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=634&q=80);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: 50% 50%;
+}
+
+.open-post__like{
+   position:absolute;
+   bottom:5px;
+   right: 5px;
+   padding:5px 10px;
+   border-radius:20px;
+   background-color: var(--grey-text);
+   color:#fff;
+   font-size:12px;
+}

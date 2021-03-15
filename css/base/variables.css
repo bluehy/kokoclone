@@ -2,4 +2,6 @@
    --mainB:#ADEFD1;
    --mainC:#00203F;
    --horizontal-S: 20px;
+   --main-border: 1px solid rgba(0,0,0,0.2);
+   --grey-text:rgba(0,0,0,0.4);
 }

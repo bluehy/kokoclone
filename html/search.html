@@ -1,1 +1,186 @@
-<!-- <i class="fas fa-spinner"></i> -->
+<!DOCTYPE html>
+<!-- index.html -->
+<html lang="ko-KR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description" content="웹페이지 클론" />
+    <meta
+      name="keyword"
+      content="html, css"
+    />
+    <meta name="author" content="bluehy" />
+    <meta
+      name="generator"
+      content="vscode"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:400,700&display=swap&subset=korean"
+    />
+
+    <link rel="stylesheet" href="../css/base/common.css" />
+    <link rel="stylesheet" href="../css/styles.css" />
+
+    <!--[if lte IE 9]>
+      <script src="../ie/html5shiv/dist/html5shiv.min.js"></script>
+      <script src="../ie/PIE/PIE.js"></script>
+      <script src="../ie/respond/dest/respond.min.js"></script>
+    <![endif]-->
+
+    <link rel="shortcut icon" href="../img/favicon.png" type="image/png" />
+    <link rel="apple-touch-icon" href="../img/favicon.png" />
+
+    <title>KoKo clone page :: Search</title>
+  </head>
+  <!--  -->
+  <body>
+
+    <!-- layout =============== -->
+    <div id="wrap">
+      <!-- status bar -->
+      <div class="statusbar">
+        <div class="statusbar__column">
+          <span>No service</span>
+          <i class="fas fa-wifi"></i>
+        </div>
+        <div class="statusbar__column">
+          <span>18:43</span>
+        </div>
+        <div class="statusbar__column">
+          <span>100%</span>
+          <i class="fas fa-battery-full"></i>
+          <i class="fas fa-bolt"></i>
+        </div>
+      </div>
+
+      <!-- 검색페이지 헤더 -->
+      <header class="screen-header">
+        <h1 class="screen-header__title">Search</h1>
+        <div class="screen-header__icons">
+          <span>
+            <i class="fas fa-search fa-lg"></i>
+          </span>
+          <span>
+            <i class="fas fa-cog fa-lg"></i>
+            <div class="badge-component badge-component-xs"></div>
+          </span>
+        </div>
+      </header>
+
+      <!-- search 페이지 구성 -->
+      <main class="main-screen">
+        <!-- find icons -->
+        <div class="find-icons">
+           <div class="find-icons__app">
+               <i class="fas fa-qrcode fa-2x"></i>
+               <span>Qr Code</span>
+            </div>
+           <div class="find-icons__app">
+               <i class="far fa-address-book fa-2x"></i>
+               <span>Add by contacts</s
+               pan></div>
+           <div class="find-icons__app">
+               <i class="fas fa-fingerprint fa-2x"></i>
+               <span>Add by ID</span>
+            </div>
+           <div class="find-icons__app">
+               <i class="far fa-envelope fa-2x"></i>
+               <span>Invite</span>
+            </div>
+        </div>
+
+        <!-- 친구추천 -->
+        <div class="recommended-friends">
+           <h4 class="recommended-friends__title">Recommended Friends</h6>
+           <p>You have no recommended friends.</p>
+        </div>
+        
+        <!-- 오픈채팅 -->
+        <div class="open-chat">
+           <div class="open-chat__header">
+              <h4 class="open-chat__title">Open Chat</h4>
+              <span>Go to Openchat Home <i class="fas fa-chevron-right fa-xs"></i></span>
+           </div>
+           <div class="open-post">
+              <div class="open-post__column">
+                  <h5 class="open-post__title">고독한 댕댕이방</h5>
+                  <h6 class="open-post__hashtags">#puppy#dogs#friends</h6>
+                  <div class="open-post__members">
+                     <div class="open-post__admin"></div>
+                     <span class="open-post__member-count">999 members</span>
+                     <div class="divider"></div>
+                     <span class="open-post__member-status">Active</span>
+                  </div>
+              </div>
+              <div class="open-post__column">
+                 <div class="open-post__pic"></div>
+                  <div class="open-post__like">
+                     <i class="fas fa-heart"></i>
+                     <span>326</span>
+                  </div>
+              </div>
+           </div>
+           <div class="open-post">
+            <div class="open-post__column">
+                <h5 class="open-post__title">고독한 댕댕이방</h5>
+                <h6 class="open-post__hashtags">#puppy#dogs#friends</h6>
+                <div class="open-post__members">
+                   <div class="open-post__admin"></div>
+                   <span class="open-post__member-count">999 members</span>
+                   <div class="divider"></div>
+                   <span class="open-post__member-status">Active</span>
+                </div>
+            </div>
+            <div class="open-post__column">
+               <div class="open-post__pic"></div>
+                <div class="open-post__like">
+                   <i class="fas fa-heart"></i>
+                   <span>326</span>
+                </div>
+            </div>
+         </div>
+        </div>
+
+      </main>
+
+      
+      <!-- 네비게이션바 -->
+      <nav class="navbar">
+         <ul class="nav__ul">
+            <li class="nav__li">
+               <a class="nav__a" href="./friends.html">
+                  <i class="far fa-user fa-lg"></i>
+                  <span class="hidden">friends</span>
+               </a>
+            </li>
+            <li class="nav__li">
+               <a class="nav__a" href="./chats.html">
+                  <span class="nav__alarm badge-component">99</span>
+                  <i class="far fa-comment fa-lg"></i>
+                  <span class="hidden">chats</span>
+               </a>
+            </li>
+            <li class="nav__li">
+               <a class="nav__a" href="./search.html">
+                  <i class="fas fa-spinner fa-lg"></i>
+                  <span class="hidden">search</span>
+               </a>
+            </li>
+            <li class="nav__li">
+               <a class="nav__a" href="./more.html">
+                  <span class="nav__alarm badge-component badge-component-xs"></span>
+                  <i class="fas fa-ellipsis-h fa-lg"></i>
+                  <span class="hidden">more</span>
+               </a>
+            </li>
+         </ul>
+      </nav>
+
+    </div>
+    <!-- script ================ -->
+    <script src="https://kit.fontawesome.com/0541816620.js" crossorigin="anonymous"></script>
+  </body>
+</html>
