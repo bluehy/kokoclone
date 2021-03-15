@@ -88,10 +88,6 @@
    align-items: flex-end;
 }
 
-.message-row--own .message__author{
-
-}
-
 .message-row--own .message__bubble{
    background-color: var(--mainC);
    color: var(--mainB);
