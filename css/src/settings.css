@@ -1,0 +1,26 @@
+/* settings.css */
+
+.settings-list{
+   width:100%;
+   padding-bottom:var(--horizontal-S);
+}
+
+.setiings__setting{
+   width: 100%;
+   height: 20px;
+   padding: var(--horizontal-S) 0;
+   cursor:pointer;
+   border-bottom: 1px solid rgba(0,0,0,0.1);
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.setiings__setting i {
+   margin-right: 10px;
+}
+
+
+.settings__setting-column:last-child{
+   opacity:0.5;
+}

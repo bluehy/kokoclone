@@ -1,1 +1,14 @@
 /* alt-screen-header.css */
+
+.alt-header{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: var(--horizontal-S);
+   padding-top:30px;
+   margin-bottom:10px;
+}
+
+.alt-header__title{
+   font-size:22px;
+}

@@ -57,88 +57,92 @@
       </div>
 
       <!-- 설정 헤더 -->
-      <header class="alt-screen-header">
-        <h1 class="screen-header__title">More</h1>
-        <div class="screen-header__icons">
-          <span>
+      <header class="alt-header">
+         <div class="alt-header__column">
+            <a href="./more.html">
+               <i class="fas fa-chevron-left fa-lg"></i>
+            </a>
+         </div>
+         <div class="alt-header__column">
+            <h1 class="alt-header__title">Settings</h1>
+         </div>
+         <div class="alt-header__column">
             <i class="fas fa-search fa-lg"></i>
-          </span>
-          <span>
-            <i class="fas fa-music fa-lg"></i>
-          </span>
-          <span>
-            <i class="fas fa-cog fa-lg"></i>
-            <div class="badge-component badge-component-xs"></div>
-          </span>
-        </div>
+         </div>
       </header>
 
       <!-- 설정페이지 구성 -->
       <main class="main-screen">
-        <!-- user profile -->
-        <div class="user-component">
-         <div class="user-component__column">
-           <div class="user-component__avatar user-component__avatar--xl">
-             <span class="hidden">프로필사진</span>
-           </div>
-           <div class="user-component__text">
-             <h4 class="user-component__title">사모예드</h4>
-             <h6 class="user-component__subtitle">+82 10-xxxx-xxxx <span><i class="fas fa-exclamation-circle"></i></span></h6>
-           </div>
-         </div>
-         <div class="user-component__column">
-            <i class="far fa-comment-alt fa-2x component-icon__black"></i>
-         </div>
-       </div>
+        <!-- main Notice -->
+        <ul class="settings-list">
+           <li class="setiings__setting">
+              <div class="setiings__setting-column">
+                  <i class="fas fa-bullhorn"></i>
+                  <span class="settings-setting__title">Notice</span>
+              </div>
+              <div class="settings__setting-column"></div>
+           </li>
+           <li class="setiings__setting">
+               <div class="setiings__setting-column">
+                  <i class="fas fa-flask"></i>
+                  <span class="settings-setting__title">Koko Lab</span>
+               </div>
+               <div class="settings__setting-column"></div>
+           </li>
+           <li class="setiings__setting">
+               <div class="setiings__setting-column">
+                  <i class="fas fa-info-circle"></i>
+                  <span class="settings-setting__title">Version</span>
+               </div>
+               <div class="settings__setting-column">Latest Version</div>
+           </li>
+        </ul>
 
         <!-- 설정 모음 -->
-        <div class="icon-row">
-           <div class="icon-row__app">
-               <i class="far fa-calendar-check fa-2x"></i>
-              <span>Calendar</span>
+        <ul class="settings-list">
+         <li class="setiings__setting">
+            <div class="setiings__setting-column">
+               <i class="fas fa-cog"></i>
+                <span class="settings-setting__title">Setting</span>
             </div>
-           <div class="icon-row__app">
-               <i class="fas fa-archive fa-2x"></i>
-              <span>Talk Drive</span>
+            <div class="settings__setting-column"></div>
+         </li>
+         <li class="setiings__setting">
+             <div class="setiings__setting-column">
+               <i class="fas fa-palette"></i>
+                <span class="settings-setting__title">Theme</span>
+             </div>
+             <div class="settings__setting-column"></div>
+         </li>
+         <li class="setiings__setting">
+             <div class="setiings__setting-column">
+               <i class="far fa-comments"></i>
+                <span class="settings-setting__title">chat</span>
+             </div>
+             <div class="settings__setting-column"></div>
+         </li>
+         <li class="setiings__setting">
+            <div class="setiings__setting-column">
+               <i class="far fa-bell"></i>
+               <span class="settings-setting__title">alarm</span>
             </div>
-           <div class="icon-row__app">
-               <i class="far fa-laugh-squint fa-2x"></i>
-              <span>Emoticons</span>
+            <div class="settings__setting-column"></div>
+        </li>
+        <li class="setiings__setting">
+            <div class="setiings__setting-column">
+               <i class="fas fa-phone-alt"></i>
+               <span class="settings-setting__title">call</span>
             </div>
-           <div class="icon-row__app">
-               <i class="fas fa-palette fa-2x"></i>
-              <span>Themes</span>
+            <div class="settings__setting-column"></div>
+         </li>
+         <li class="setiings__setting">
+            <div class="setiings__setting-column">
+               <i class="fas fa-lock"></i>
+               <span class="settings-setting__title">security</span>
             </div>
-           <div class="icon-row__app">
-               <i class="far fa-user-circle fa-2x"></i>
-              <span>Account</span>
-            </div>
-           <div class="icon-row__app">
-               <i class="far fa-comments fa-2x"></i>
-              <span>Openchat</span>
-            </div>
-        </div>
-        
-        <!-- 추천 어플 모음 -->
-        <div class="more-suggestion">
-            <div class="more-suggestion__header">
-               <h4 class="more-suggestion__title">suggestions</h4>
-            </div>
-            <ul class="more-suggestion__list">
-               <li class="more-suggestion__app">
-                  <div class="more-suggestion__pic"></div>
-                  <span>koko story</span>
-               </li>
-               <li class="more-suggestion__app">
-                  <div class="more-suggestion__pic"></div>
-                  <span>koko friends</span>
-               </li>
-               <li class="more-suggestion__app">
-                  <div class="more-suggestion__pic"></div>
-                  <span>friends game</span>
-               </li>
-            </ul>
-        </div>
+            <div class="settings__setting-column"></div>
+        </li>
+      </ul>
 
       </main>
 

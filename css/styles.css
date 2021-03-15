@@ -17,6 +17,17 @@
 @import "./src/friends.css";
 @import "./src/find.css";
 @import "./src/more.css";
+@import "./src/settings.css";
+
+
+html{
+   background-color: var(--mainB);
+}
+
+#wrap{
+   background-color: #fff;
+   box-shadow:1px 1px 4px var(--grey-text);
+}
 
 @media screen and (max-width: 420px){
    #wrap{
