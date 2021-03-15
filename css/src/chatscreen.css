@@ -1,0 +1,109 @@
+/* chatscreen.css */
+
+#chat-screen #wrap{
+   background-color: #abc1d1;
+   height: 1000vh;
+}
+
+#chat-screen .alt-header{
+   position:fixed;
+   width:100%;
+   max-width:420px;
+   box-sizing: border-box;
+}
+
+#chat-screen .alt-header,
+#chat-screen .statusbar{
+   background-color: #abc1d1;
+}
+
+#chat-screen .statusbar{
+   z-index: 100;
+}
+
+.main-chat .chat__timestamp{
+   padding-top: 100px;
+   text-align: center;
+   margin-bottom: var(--horizontal-S);
+}
+
+.chat__timestamp span{
+   padding:5px 20px;
+   border-radius:20px;
+   font-size:12px;
+   background-color: rgba(0,0,0,0.2);
+   color:#fff;
+}
+
+/* 메시지 */
+.message-row{
+   width:100%;
+   display: flex;
+   align-items:flex-start;
+   margin-bottom: var(--horizontal-S);
+}
+
+.message-row img{
+   width: 40px;
+   height:40px;
+   border-radius:50%;
+   margin-right:15px;
+}
+
+.message__author{
+   display: block;
+   opacity:0.8;
+   font-size:13px;
+   margin-bottom:5px;
+}
+
+.message__text{
+   display: flex;
+   align-items: flex-end;
+}
+
+.message__bubble{
+   padding:8px 13px;
+   border-radius:15px;
+   border-top-left-radius: 0px;
+   margin-right:5px;
+   background-color: #fff;
+   font-size:14px;
+}
+
+.message__time{
+   opacity:0.8;
+   font-size:12px;
+}
+
+/* 발신메시지용 modifier */
+.message-row--own{
+   flex-direction:row-reverse;
+   justify-content: flex-start;
+}
+
+.message-row--own .message-row__content{
+   display: flex;
+   flex-direction: column;
+   align-items: flex-end;
+}
+
+.message-row--own .message__author{
+
+}
+
+.message-row--own .message__bubble{
+   background-color: var(--mainC);
+   color: var(--mainB);
+}
+
+.message-row--own .message__text{
+   flex-direction:row-reverse;
+}
+
+.message-row--own .message__bubble{
+   margin-right:0;
+   margin-left:5px;
+   border-radius:15px;
+   border-top-right-radius: 0px;
+}

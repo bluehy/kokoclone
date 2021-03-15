@@ -36,7 +36,7 @@
     <title>KoKo clone page :: chat screen</title>
   </head>
   <!--  -->
-  <body>
+  <body id="chat-screen">
 
     <!-- layout =============== -->
     <div id="wrap">
@@ -67,25 +67,45 @@
             <h1 class="alt-header__title">Puppy</h1>
          </div>
          <div class="alt-header__column">
-            <i class="fas fa-search fa-lg"></i>
-            <i class="fas fa-bars fa-lg"></i>
+            <span><i class="fas fa-search fa-lg"></i></span>
+            <span><i class="fas fa-bars fa-lg"></i></span>
          </div>
       </header>
 
       <!-- 설정페이지 구성 -->
-      <main class="main-screen">
-        <!-- user profile -->
-        
+      <main class="main-screen main-chat">
+        <!-- time stamp -->
+        <div class="chat__timestamp">
+         <span>Tuesday, March 16, 2021</span>
+        </div>
 
-        <!-- 설정 모음 -->
-        
+        <!-- 수신 메시지 -->
+        <div class="message-row">
+           <img src="https://images.unsplash.com/photo-1587402092301-725e37c70fd8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80" />
+            <div class="message-row__content">
+               <span class="message__author">Puppy</span>
+               <div class="message__text">
+                  <span class="message__bubble">Hi!</span>
+                  <span class="message__time">12:37</span>
+               </div>
+            </div>
+        </div>
      
-        
-        <!-- 추천 어플 모음 -->
+        <!-- 발신 메시지 -->
+        <div class="message-row message-row--own">
+          <div class="message-row__content">
+             <div class="message__text">
+                <span class="message__bubble">Hi Nice to meet you.</span>
+                <span class="message__time">14:01</span>
+             </div>
+          </div>
+      </div>
+   </main>
+   
+   <!-- message input -->
+   <form action="" class="reply">
       
-
-      </main>
-
+   </form>
 
     </div>
     <!-- script ================ -->

@@ -18,15 +18,10 @@
 @import "./src/find.css";
 @import "./src/more.css";
 @import "./src/settings.css";
-
-
-html{
-   background-color: var(--mainB);
-}
+@import "./src/chatscreen.css";
 
 #wrap{
-   background-color: #fff;
-   box-shadow:1px 1px 4px var(--grey-text);
+   box-shadow:1px 1px 4px rgba(0,0,0,0.2);
 }
 
 @media screen and (max-width: 420px){
