@@ -3,13 +3,12 @@
    position:fixed;
    bottom:0;
    width:100%;
-   min-width: 300px;
+   min-width: 380px;
    max-width: 420px;
    height: 45px;
    border-top:1px solid rgba(0,0,0,0.2);
    background-color: #efefef;
 }
-
 
 .nav__ul{
    display: flex;
@@ -41,16 +40,6 @@
    position: absolute;
    top:5px;
    right:30px;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   width: 20px;
-   height: 20px;
-   background-color: tomato;
-   border-radius: 20px;
-   font-size:11px;
-   font-weight: bold;
-   color: #fff;
 }
 
 .nav__li:last-child .nav__alarm {

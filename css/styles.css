@@ -8,6 +8,7 @@
 @import "./components/nav-bar.css";
 @import "./components/screen-header.css";
 @import "./components/user-component.css";
+@import "./components/badge.css";
 
 /* Screens */
 @import "./src/login.css";
@@ -17,7 +18,7 @@
 @media screen and (max-width: 420px){
    #wrap{
       width: 100%;
-      min-width: 300px;
+      min-width: 380px;
       height: 100%;
    }
 } 
@@ -27,4 +28,8 @@
       width: 420px;
       height: 100%;
    }
+}
+
+.main-screen{
+   padding: 0 var(--horizontal-S);
 }

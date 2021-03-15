@@ -33,7 +33,7 @@
     <link rel="shortcut icon" href="../img/favicon.png" type="image/png" />
     <link rel="apple-touch-icon" href="../img/favicon.png" />
 
-    <title>KoKo clone page :: Friends</title>
+    <title>KoKo clone page :: Chats</title>
   </head>
   <!--  -->
   <body>
@@ -56,12 +56,15 @@
         </div>
       </div>
 
-      <!-- 친구목록 헤더 -->
+      <!-- 채팅목록 헤더 -->
       <header class="screen-header">
-        <h1 class="screen-header__title">Friends</h1>
+        <h1 class="screen-header__title">Chats</h1>
         <div class="screen-header__icons">
           <span>
             <i class="fas fa-search fa-lg"></i>
+          </span>
+          <span>
+            <i class="fas fa-comment-medical fa-lg"></i>
           </span>
           <span>
             <i class="fas fa-music fa-lg"></i>
@@ -72,82 +75,58 @@
         </div>
       </header>
 
-      <!-- aside -->
-      <a href="#" class="friends-display-link"><i class="fas fa-info-circle"></i> Friends' Names Display <i class="fas fa-chevron-right fa-xs"></i></a>
-
       <!-- 친구 목록 -->
       <main class="main-screen">
         <!-- my profile -->
         <div class="user-component">
           <div class="user-component__column">
-            <div class="user-component__avatar user-component__avatar--xl">
+            <div class="user-component__avatar">
               <span class="hidden">프로필사진</span>
             </div>
             <div class="user-component__text">
               <h4 class="user-component__title">사모예드</h4>
+              <h6 class="user-component__subtitle">Please check my koko Account info!</h6>
             </div>
           </div>
           <div class="user-component__column">
-          </div>
-        </div>
-
-        <!-- friends list -->
-        <div class="friends-screen__channel">
-          <div class="friends-screen__channel-header">
-            <p>Channel</p>
-            <i class="fas fa-chevron-up fa-xs"></i>
-          </div>
-          <!-- channel list -->
-          <div class="user-component">
-            <div class="user-component__column">
-              <div class="user-component__avatar user-component__avatar--xs">
-                <span class="hidden">프로필사진</span>
-              </div>
-              <div class="user-component__text">
-                <h4 class="user-component__title user-component__title--not-bold">Channel</h4>
-              </div>
-            </div>
-            <div class="user-component__column">
-              <div>
-                <span>2</span>
-                <i class="fas fa-chevron-right fa-xs"></i>
-              </div>
-            </div>
+            <p class="user-component__time">03:14</p>
+            <div class="badge-component">99</div> 
           </div>
         </div>
       </main>
 
+      
       <!-- 네비게이션바 -->
       <nav class="navbar">
-        <ul class="nav__ul">
-           <li class="nav__li">
-              <a class="nav__a" href="./friends.html">
-                 <i class="fas fa-user fa-lg"></i>
-                 <span class="hidden">friends</span>
-              </a>
-           </li>
-           <li class="nav__li">
-              <a class="nav__a" href="./chats.html">
-                 <span class="nav__alarm badge-component">99</span>
-                 <i class="far fa-comment fa-lg"></i>
-                 <span class="hidden">chats</span>
-              </a>
-           </li>
-           <li class="nav__li">
-              <a class="nav__a" href="./search.html">
-                 <i class="fas fa-search fa-lg"></i>
-                 <span class="hidden">search</span>
-              </a>
-           </li>
-           <li class="nav__li">
-              <a class="nav__a" href="./more.html">
-                 <span class="nav__alarm nav__find-alarm"></span>
-                 <i class="fas fa-ellipsis-h fa-lg"></i>
-                 <span class="hidden">more</span>
-              </a>
-           </li>
-        </ul>
-     </nav>
+         <ul class="nav__ul">
+            <li class="nav__li">
+               <a class="nav__a" href="./friends.html">
+                  <i class="far fa-user fa-lg"></i>
+                  <span class="hidden">friends</span>
+               </a>
+            </li>
+            <li class="nav__li">
+               <a class="nav__a" href="./chats.html">
+                  <span class="nav__alarm badge-component">99</span>
+                  <i class="fas fa-comment fa-lg"></i>
+                  <span class="hidden">chats</span>
+               </a>
+            </li>
+            <li class="nav__li">
+               <a class="nav__a" href="./search.html">
+                  <i class="fas fa-search fa-lg"></i>
+                  <span class="hidden">search</span>
+               </a>
+            </li>
+            <li class="nav__li">
+               <a class="nav__a" href="./more.html">
+                  <span class="nav__alarm nav__find-alarm"></span>
+                  <i class="fas fa-ellipsis-h fa-lg"></i>
+                  <span class="hidden">more</span>
+               </a>
+            </li>
+         </ul>
+      </nav>
 
     </div>
     <!-- script ================ -->

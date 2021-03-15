@@ -10,14 +10,11 @@
    text-align: center;
    background-color: #fafafa;
    color: #666;
+   margin-top:-10px;
 }
 
 .friends-display-link i {
    color: #ddd;
-}
-
-.friends-screen{
-   padding: 0 var(--horizontal-S);
 }
 
 .friends-screen__channel-header{
