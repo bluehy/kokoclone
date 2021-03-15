@@ -10,6 +10,7 @@
 
 /* Screens */
 @import "./src/login.css";
+@import "./src/friends.css";
 
 
 @media screen and (max-width: 420px){
